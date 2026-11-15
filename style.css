@@ -1073,3 +1073,21 @@ footer {
         font-size: 38px;
     }
 }
+
+
+.project-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #6c63ff, #00c6ff);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.project-link:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 198, 255, 0.3);
+}
